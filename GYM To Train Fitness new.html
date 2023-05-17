@@ -1,0 +1,88 @@
+
+<!-- saved from url=(0037)http://127.0.0.1:5500/src/component/# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM To Train Fitness</title>
+    <link rel="stylesheet" type="text/css" href="./GYM To Train Fitness new_files/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h2 class="logo"></h2>
+            <ul>
+                <a href="http://127.0.0.1:5500/src/component/#"><li>Home</li></a>
+                <a href="http://127.0.0.1:5500/src/component/shop1.html"><li>Shop</li></a>
+                <a href="http://127.0.0.1:5500/src/component/about.html"><li>About</li></a>
+                <a href="http://127.0.0.1:5500/src/component/contact1.html"><li>Contact</li></a>
+                <a href="http://127.0.0.1:5500/src/component/payment.html"><li>Payment Option</li></a>
+        </ul></nav>
+        <div class="banner">
+            <div class="intro">
+                <h2>Be Strong Fitness</h2><br>
+                <h3>It's very important to have a patient, and it will be followed by an adipiscing process, but I'll give it that way.</h3><br>
+                <a href="http://127.0.0.1:5500/src/component/start.html"><button class="btn">START DAY</button></a>
+                </div>
+                </div>
+    </header>
+    <div class="row">
+        <div class="card" style="color:white;
+        background:var(--secondary-color);">
+        <h2>Progression</h2>
+        <p>Progression should be small and incremental. Overload that is increased too rapidly can result in injury issues or muscle damage. For example, jumping from 50 pounds to 100 pounds in one session is too much for the body to handle. Instead, stick to small increases</p>
+        </div>
+
+        <div class="card" style="color:white;
+        background:var(--primary-color);">
+        <h2>Workout</h2>
+        <p>Physical fitness is to the human body what fine tuning is to an engine. It enables us to perform up to our potential. Fitness can be described as a condition that helps us look, feel and do our best. Physical fitness involves the performance of the heart and lungs, and the muscles of the body</p>
+
+        </div>
+        <div class="card" style="color:white;
+        background:var(--secondary-color);">
+        <h2>Nutrition</h2>
+        <p>Nutrition is the process of consuming, absorbing, and using nutrients needed by the body for growth, development, and maintenance of life. To receive adequate, appropriate nutrition, people need to consume a healthy diet, which consists of a variety of nutrients—the substances in foods that nourish the body.</p>
+
+        </div>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
